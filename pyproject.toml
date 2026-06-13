@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "ttl-cache-wcn"
+version = "0.1.0"
+description = "Tiny thread-safe TTL cache with per-entry expiry and optional LRU max size. Zero dependencies."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "WCN Development Co"}]
+keywords = ["cache","ttl","lru","expiry","thread-safe"]
+classifiers = ["License :: OSI Approved :: MIT License","Programming Language :: Python :: 3","Operating System :: OS Independent","Intended Audience :: Developers"]
+[project.urls]
+Homepage = "https://github.com/WCN-DEV-CO/ttl-cache"
